@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void)
+{
+    printf("// ºº--.._\n");
+    printf("||  \033[31m(_)  _\033[0m º-._\n");
+    printf("||    \033[31m_ (_)\033[0m    º-..\n");
+    printf("||   \033[31m(_)\033[0m   __..-º\n");
+    printf(" \\\\__..--ºº\n");
+    
+    return (0);
+}
