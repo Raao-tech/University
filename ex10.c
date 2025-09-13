@@ -10,7 +10,7 @@ int main(void)
     printf("Thanks!, and i need other character:\n");
     scanf("\n%c", &c2);
     printf("Okk Thank you man!, now, your first character is: %c, and your second character is: %c. right?\n", c1, c2);
-    printf("Well, the both character is separated in the ASSCI code for %d units\n", (int)(c2-c1));
+    printf("Well, Both character are separated in the ASSCI code bym %d units\n", (int)(c2-c1));
     
     return (0);
 }
