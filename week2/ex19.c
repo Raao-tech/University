@@ -33,15 +33,12 @@ int main()
 
     printf("Write first sentence: ");
     scanf("%s", str_1);
-    printf("Write second sentence: ");
-    scanf("\n%s", str_2);
-
-    printf("The first: %s \nThe Second: %s\n", str_1, str_2);
 
     strcpy(str_2, str_1);
 
-    printf("But after copy, we difference is: %d\n", strcmp(str_1,str_2));
+    printf("The first: %s\nThe Second: %s\n", str_1, str_2);
+
+    printf("And after copy, we difference is: %d\n", strcmp(str_1,str_2));
 
     return (0);
-
 }
